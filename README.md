@@ -25,10 +25,10 @@ This project extracts, transforms, and flattens nested customer order data from 
 |----------------------------|------------------|--------------------------------------------------|
 | `customer_id`              | Int64            | Customer ID                                      |
 | `customer_name`            | str (object)     | Name of the customer                             |
-| `registration_date`        | datetime64[ns]   | Registration date (date only)                    |
+| `registration_date`        | datetime64[ns]   | Registration date (date & time)                    |
 | `is_vip`                   | bool             | True if customer is a VIP                        |
 | `order_id`                 | Int64            | Order ID                                         |
-| `order_date`               | datetime64[ns]   | Order date (date only)                           |
+| `order_date`               | datetime64[ns]   | Order date (date & time)                           |
 | `product_id`               | Int64            | Product/item ID                                  |
 | `product_name`             | str (object)     | Product name (e.g., "Item 1 for Order 2")        |
 | `category`                 | str (object)     | Product category ("Electronics", "Apparel", etc.)|
